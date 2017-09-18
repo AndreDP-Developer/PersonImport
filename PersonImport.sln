@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonImport", "PersonImport\PersonImport.csproj", "{CE146972-6AFD-4F7B-97D5-E3DA3096921B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A2AF955D-4979-4DDC-AD4E-FE526FBAD80F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonImportTest", "PersonImportTest\PersonImportTest.csproj", "{04BCE912-1B1A-4BD0-BF07-BD2CBA7D9115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE146972-6AFD-4F7B-97D5-E3DA3096921B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE146972-6AFD-4F7B-97D5-E3DA3096921B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE146972-6AFD-4F7B-97D5-E3DA3096921B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE146972-6AFD-4F7B-97D5-E3DA3096921B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BCE912-1B1A-4BD0-BF07-BD2CBA7D9115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BCE912-1B1A-4BD0-BF07-BD2CBA7D9115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BCE912-1B1A-4BD0-BF07-BD2CBA7D9115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BCE912-1B1A-4BD0-BF07-BD2CBA7D9115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04BCE912-1B1A-4BD0-BF07-BD2CBA7D9115} = {A2AF955D-4979-4DDC-AD4E-FE526FBAD80F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E4F8DF1-24F4-4F6C-AA03-A1D9216EC8BE}
+	EndGlobalSection
+EndGlobal
